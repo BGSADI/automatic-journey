@@ -1322,7 +1322,7 @@ def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get("https://github.com/BGSADI/automatic-journey/blob/7bed6cb98ca8448ee4af3c75f7e20a74150ede2f/Eid%20Mubarak").text
+	r1=requests.get("https://github.com/BGSADI/automatic-journey/blob/main/yt.py").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
